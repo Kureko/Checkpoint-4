@@ -1,6 +1,10 @@
 const express = require('express');
-
+require('dotenv').config();
 
 const app = express();
 
-app.listen(5000);
+const api = require('./app/routes');
+
+app.use('/api', api);
+
+app.listen(process.env.PORT);
