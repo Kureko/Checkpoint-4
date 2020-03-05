@@ -47,7 +47,7 @@ const HomePage = () => {
                 <img src={icon} alt="icon 2" className="second-icon" />
             </div> 
             <img src={CharaBack} alt="character header" className="back-chara" />            
-            <div className="characters">
+            <div className="characters fade-in-up ">
                 {characters &&
                   characters.map((character, index) => (
                     <CardCharacter 
@@ -75,7 +75,7 @@ const HomePage = () => {
                 <img src={icon} alt="icon 4" className="fourth-icon" /> 
             </div> 
             <img src={DragonBack} alt="dragon header" className="back-dragon" />      
-            <div className="dragons">
+            <div className="dragons fade-in-up-two">
                 {dragons &&
                   dragons.map((dragon, index) => (
                    <CardDragons

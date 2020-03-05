@@ -5,13 +5,13 @@ import Footer from '../footer/Footer';
 
 const Gallery = () => {
     return(
-        <div>
+        <div className="gallery-main">
             <Navbar />
-            <div className="gallery-page">
+            <div>
                 <h1 className="gallery-main-title">Links list</h1>
                 <div className="sources">
                     <a href="https://0m5ks98kpz-flywheel.netdna-ssl.com/wp-content/uploads/2017/02/Wood-Grain-Background-1.jpg" className="source-one">
-                        Link image Navbar, Footer, and separation.
+                        Link image Navbar, Footer, and separation
                     </a>
                     <a href="https://vignette.wikia.nocookie.net/howtotrainyourdragon/images/6/67/Nightlight3render.png/revision/latest?cb=20190513002915" className="source-two">
                         Night Light
