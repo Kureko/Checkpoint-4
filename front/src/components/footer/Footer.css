@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Julee&display=swap');
+
+.footer {
+    display: flex;
+    position: absolute;
+    font-family: 'Julee', cursive;
+    width: 100%;
+}
+
+.footer-text {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    top: 150.5vh;
+    left: 2vh;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-back {
+    z-index: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 150vh;
+}

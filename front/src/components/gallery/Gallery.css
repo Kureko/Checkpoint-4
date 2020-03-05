@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Julee&display=swap');
+
+.gallery-page {
+    background-color: whitesmoke;
+}
+
+.gallery-main-title {
+    position: absolute;
+    top: 10vh;
+    left: 2vh;
+    font-family: 'Julee', cursive;
+}
+
+.sources {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 20vh;
+    left: 5vh;
+    font-family: 'Julee', cursive;
+    font-size: 20px;
+}
+
+.source-one {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 2vh;
+}
+
+.source-two {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 2vh;
+}
+
+.source-three {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 2vh;
+}
+
+.source-four {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 2vh;
+}
+
+.source-five {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 2vh;
+}
+
+.source-six {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 2vh;
+}
+
+.source-seven {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 2vh;
+}
+
+.source-eight {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 2vh;
+}
+
+.source-nine {
+    color: black;
+    text-decoration: none;    
+}
+
+.source-ten {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 2vh;
+}
+
+.source-eleven {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 2vh;
+}
+
+.source-twelve {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 2vh;
+}
+
+.source-thirteen {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 2vh;
+}
+
+.source-fourteen {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 2vh;
+}
+
+.source-fifteen {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 2vh;
+}
+
+.source-sixteen {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 2vh;
+}
+
+.source-seventeen {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 2vh;
+}
+
+.source-eighteen {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 2vh;
+}
