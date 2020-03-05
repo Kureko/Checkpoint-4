@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Julee&display=swap');
+
+.main-page {
+    background-color: whitesmoke;
+}
+
+.main-head {
+    margin-top: 10.5vh;
+}
+
+.header {
+    display: flex;
+    position: absolute;
+    margin-top: 45vh;
+    margin-left: 70vh;
+    font-family: 'Julee', cursive;
+    z-index: 1;
+    color: white;
+}
+
+.background-header {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.chara-head {
+    display: flex;
+    position: absolute;
+    top: 114vh;
+    text-align: center;
+    left: 85vh;
+    font-family: 'Julee', cursive;
+    z-index: 1;
+    color: white;
+}
+
+.first-icon {
+    position: relative;
+    height: 10%;
+    width: 10%;
+    bottom: 1vh;
+    right: 110vh;
+}
+
+.second-icon {
+    position: relative;
+    height: 10%;
+    width: 10%;
+    bottom: 1vh;
+    left: 58vh;
+    transform: rotate3d(0, 1, 0, 180deg);
+}
+
+.back-chara {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    top: 110.5vh;
+    z-index: 0;
+}
+
+.characters {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    top: 80vh;
+}
+
+.dragons {
+    display: flex;
+    position: relative;
+    top: 120vh;
+    z-index: 1;
+    right: 11vh;
+}
+
+.dragon-head {
+    display: flex;
+    position: absolute;
+    top: 214vh;
+    text-align: center;
+    left: 85vh;
+    font-family: 'Julee', cursive;
+    z-index: 1;
+    color: white;
+}
+
+.third-icon {
+    position: relative;
+    height: 10%;
+    width: 10%;
+    bottom: 1vh;
+    right: 107vh;
+}
+
+.fourth-icon {
+    position: relative;
+    height: 10%;
+    width: 10%;
+    bottom: 1vh;
+    left: 61vh;
+    transform: rotate3d(0, 1, 0, 180deg);
+}
+
+.back-dragon {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    top: 210.5vh;
+    z-index: 0;
+}
+
+.hiccup {
+    position: absolute;
+    left: 16vh;
+    top: 52vh;
+    height: 36%;
+    width: 9%;
+    filter: sepia();
+    opacity: 0.7;
+}
+
+.hiccup:hover {
+    filter: none;
+    opacity: 100%;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+
+.astrid {
+    position: absolute;
+    left: 66vh;
+    top: 53vh;
+    height: 34%;
+    width: 10%;
+    filter: sepia();
+    opacity: 0.7;
+}
+
+.astrid:hover {
+    filter: none;
+    opacity: 100%;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+
+.zephyr {
+    position: absolute;
+    left: 115vh;
+    top: 52vh;
+    height: 36%;
+    width: 9%;
+    filter: sepia();
+    opacity: 0.7;
+}
+
+.zephyr:hover {
+    filter: none;
+    opacity: 100%;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+
+.nuffink {
+    position: absolute;
+    left: 166vh;
+    top: 52vh;
+    height: 36%;
+    width: 8%;
+    filter: sepia();
+    opacity: 0.7;
+}
+
+.nuffink:hover {
+    filter: none;
+    opacity: 100%;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+
+.toothless {
+    position: absolute;
+    left: 27vh;
+    bottom: 18vh;
+    height: 70%;
+    width: 20%;
+    filter: sepia();
+    opacity: 0.7;
+}
+
+.toothless:hover {
+    filter: none;
+    opacity: 100%;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+
+.light-fury {
+    position: absolute;
+    left: 92vh;
+    bottom: 18vh;
+    height: 70%;
+    width: 20%;
+    filter: sepia();
+    opacity: 0.7;
+}
+
+.light-fury:hover {
+    filter: none;
+    opacity: 100%;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+
+.night-light {
+    position: absolute;
+    left: 162vh;
+    bottom: 20vh;
+    height: 60%;
+    width: 15%;
+    filter: sepia();
+    opacity: 0.7;
+}
+
+.night-light:hover {
+    filter: none;
+    opacity: 100%;
+    transition-duration: .2s;
+    cursor: pointer;
+}

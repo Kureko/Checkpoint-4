@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Julee&display=swap');
+
+.navbar {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.navbar-content {
+    font-family: 'Julee', cursive;
+    z-index: 1;
+    text-align: center;
+    
+}
+.main-title {
+    z-index: 1;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 1vh;
+    left: 5vh;
+}
+
+.gallery-link {
+    z-index: 1;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 30vh;
+    bottom: 5vh;
+}
+
+.nav-image {
+    z-index: 0;
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    top: 0;
+}
+
+.navbar-icon {
+    display: flex;
+    position: absolute;
+}
+
+.strike-image {
+    display: flex;
+    position: relative;
+    height: 7%;
+    width: 7%;
+    bottom: 15px;
+    left: 130vh;
+}
+
+.tidal-image {
+    position: relative;
+    height: 5%;
+    width: 5%;
+    left: 130vh;
+}
+
+.tracker-image {
+    position: relative;
+    height: 5%;
+    width: 5%;
+    left: 130vh;
+}
+
+.boulder-image {
+    position: relative;
+    height: 5%;
+    width: 5%;
+    left: 130vh;
+}
+
+.mystery-image {
+    position: relative;
+    height: 5%;
+    width: 5%;
+    left: 130vh;
+}
+
+.stoker-image {
+    position: relative;
+    height: 5%;
+    width: 5%;
+    left: 130vh;
+}

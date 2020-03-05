@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
-import HomePage from './components/HomePage/HomePage';
+import HomePage from './components/home-page/HomePage';
 import Gallery from './components/gallery/Gallery';
 
 

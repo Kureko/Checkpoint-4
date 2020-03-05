@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Julee&display=swap');
+
+.dragon-card {
+    justify-content: space-around;
+    margin-top: 20vh;
+    margin-left: 20vh;
+    margin-bottom: 10vh;
+    width: 95%;
+    height: 150px;
+    font-family: 'Julee', cursive;
+}
+
+.character-card {
+    justify-content: space-around;
+    margin-top: 50vh;
+    margin-left: 3vh;
+    font-family: 'Julee', cursive;
+}
+
+.chara-back {
+    height: 200%;
+    width: 95%;
+}
+
+.chara-panel {
+    height: 10%;
+    width: 22%;
+    z-index: 0;
+    position: absolute;
+    bottom: 3.5vh;
+}
+
+.chara-name {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    font-size: 20px;
+    color: white;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.chara-pres {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    font-size: 20px;
+    color: white;
+    bottom: 15px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.dragon-back {
+    display: flex;
+    position: relative;
+    height: 200%;
+    width: 110%;
+    bottom: 30vh;
+    z-index: 0;
+}
+
+.dragon-panel {
+    height: 50%;
+    width: 25%;
+    z-index: 0;
+    position: absolute;
+    top: 45vh;
+    margin-left: 3px;
+}
+
+.dragon-name {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    font-size: 18px;
+    color: white;
+    left: 15px;
+    bottom: 25vh;
+    font-weight: bold;
+}
+
+.dragon-race {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    font-size: 18px;
+    color: white;
+    left: 15px;
+    bottom: 28vh;
+    font-weight: bold;
+}
+
+.dragon-ability {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    font-size: 18px;
+    color: white;
+    left: 15px;
+    bottom: 31vh;
+    font-weight: bold;
+}
+
+.dragon-pres {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    font-size: 18px;
+    color: white;
+    left: 15px;
+    bottom: 35vh;
+    font-weight: bold;
+}
