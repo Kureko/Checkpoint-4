@@ -67,6 +67,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-### Run the project
-
-Make a fork of the github project page. Clone the project to put it in a local repository. Install the dependencies (Cors, Dotenv, Mysql, Express, Body-parser) and run in simultaneous the front and the back on the terminal
