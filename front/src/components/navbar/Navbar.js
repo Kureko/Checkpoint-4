@@ -14,10 +14,19 @@ const Navbar = () => {
         <div className="navbar">
             <div className="navbar-content">
                 <NavLink className="main-title" to="/">
-                    <h2>HTTYD Fan</h2>
+                    <h2>Home</h2>
                 </NavLink>
                 <NavLink className="gallery-link" to="/galleries">
                     <h2>Links images</h2>
+                </NavLink>
+                <NavLink className="story-link" to="/history">
+                    <h2>History</h2>
+                </NavLink>
+                <NavLink className="univ-link" to="/universe">
+                    <h2>Universe</h2>
+                </NavLink>
+                <NavLink className="game-link" to="/games">
+                    <h2>Games</h2>
                 </NavLink>
             </div>
             <img src={imageNav} alt="nav"  className="nav-image"/>
