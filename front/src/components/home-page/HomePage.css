@@ -119,6 +119,53 @@
     z-index: 0;
 }
 
+.global-button-chara {
+    display: flex;
+    position: absolute;
+    top: 200vh;
+    left: 94vh;
+    color: black;
+}
+
+.button-one {
+    position: relative;
+    top: 0.5vh;
+    left: 0.5vh;
+    height: 90%;
+    width: 17%;
+}
+
+.t-one {
+    position: relative;
+    top: 1vh;
+    font-size: 18px;
+    font-family: 'Julee', cursive;
+}
+
+.global-button-dragon {
+    display: flex;
+    position: absolute;
+    top: 311.7vh;
+    left: 94vh;
+    color: black;
+}
+
+
+.button-two {
+    position: relative;
+    top: 0.5vh;
+    left: 0.5vh;
+    height: 90%;
+    width: 17%;
+}
+
+.t-two {
+    position: relative;
+    top: 1vh;
+    font-size: 18px;
+    font-family: 'Julee', cursive;
+}
+
 .hiccup {
     position: absolute;
     left: 16vh;

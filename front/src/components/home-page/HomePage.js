@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 import './HomePage.css';
 import Navbar from '../navbar/Navbar';
 import Footer from '../footer/Footer';
@@ -17,6 +18,7 @@ import ToohtlessImage from '../../assets/images/Toothless.png';
 import LightImage from '../../assets/images/light-fury.png';
 import NlImage from '../../assets/images/NL.png';
 import icon from '../../assets/images/Toothless-wood.png';
+import ButtonIcon from '../../assets/images/button.png';
 
 const HomePage = () => {
     const [characters, setCharacters] = useState([]);
@@ -69,6 +71,12 @@ const HomePage = () => {
                     <img src={NuffinkImage} alt="Nuffink" className="nuffink"/>
                 </div>
             </div>
+            <div className="global-button-chara">
+                <p className="t-one">See more</p>
+                <NavLink to="/characters">
+                    <img src={ButtonIcon} alt="button" className="button-one"/>
+                </NavLink>
+            </div>
             <div className="dragon-head">
                 <h2>Dragons presentation</h2> 
                 <img src={icon} alt="icon 3" className="third-icon" />
@@ -95,6 +103,12 @@ const HomePage = () => {
                 <div>
                     <img src={NlImage} alt="Night Light" className="night-light"/>
                 </div>
+            </div>
+            <div className="global-button-dragon">
+                <p className='t-two'>See more</p>
+                <NavLink to="/dragons">
+                    <img src={ButtonIcon} alt="button" className="button-two"/>
+                </NavLink>
             </div>
             <Footer />
         </div>
