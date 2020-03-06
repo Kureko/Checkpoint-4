@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="navbar">
             <div className="navbar-content">
                 <NavLink className="main-title" to="/">
-                    <h2>Home</h2>
+                    <h2>HTTYD Fan</h2>
                 </NavLink>
                 <NavLink className="gallery-link" to="/galleries">
                     <h2>Links images</h2>
