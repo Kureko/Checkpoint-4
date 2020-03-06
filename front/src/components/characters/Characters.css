@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Julee&display=swap');
+
+.character-main {
+    background-color: whitesmoke;
+    height: 155vh;
+}
+
+.character-title {
+    position: absolute;
+    top: 15vh;
+    left: 5vh;
+    font-family: 'Julee', cursive;
+}
+
+.character-text {
+    position: absolute;
+    top: 25vh;
+    left: 5vh;
+    font-family: 'Julee', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}

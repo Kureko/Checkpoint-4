@@ -6,6 +6,8 @@ import Gallery from './components/gallery/Gallery';
 import History from './components/history/History';
 import Universe from './components/universe/Universe';
 import Games from './components/games/Games';
+import Characters from './components/characters/Characters';
+import Dragons from './components/dragons/Dragons';
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
         <Route path="/history" component={History} />
         <Route path="/universe" component={Universe} />
         <Route path="/games" component={Games} />
+        <Route path="/characters" component={Characters} />
+        <Route path="/dragons" component={Dragons} />
       </Switch>
     </div>
   );
