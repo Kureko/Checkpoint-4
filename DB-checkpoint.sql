@@ -18,10 +18,10 @@ CREATE TABLE dragons (
 
 INSERT INTO characters (name, presentation)
 VALUES
-('Hiccup', 'Chief of Berk. '),
-('Astrid', 'Wife of Hiccup and Chieftess of Berk.'),
-('Zephyr', 'Daughter of Hiccup and Astrid.'),
-('Nuffink', 'Son of Hiccup and Astrid.');
+('Hiccup Horrendous Haddock', 'Chief of Berk. '),
+('Astrid Hofferson', 'Wife of Hiccup and Chieftess of Berk.'),
+('Zephyr Haddock', 'Daughter of Hiccup and Astrid.'),
+('Nuffink Haddock', 'Son of Hiccup and Astrid.');
 
 INSERT INTO dragons (name, race, presentation, ability)
 VALUES

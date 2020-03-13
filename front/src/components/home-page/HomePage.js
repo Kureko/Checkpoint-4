@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import Fade from 'react-reveal/Fade';
 import './HomePage.css';
 import Navbar from '../navbar/Navbar';
 import Footer from '../footer/Footer';
@@ -48,29 +49,31 @@ const HomePage = () => {
                 <img src={icon} alt="icon 1" className="first-icon" />
                 <img src={icon} alt="icon 2" className="second-icon" />
             </div> 
-            <img src={CharaBack} alt="character header" className="back-chara" />            
-            <div className="characters fade-in-left ">
-                {characters &&
-                  characters.map((character, index) => (
-                    <CardCharacter 
-                      key={index}
-                      name={character.name}
-                      presentation={character.presentation}
-                    />
-                ))}
-                <div>
-                    <img src={HiccupImage} alt="Hiccup" className="hiccup"/>
+            <img src={CharaBack} alt="character header" className="back-chara" /> 
+            <Fade left>       
+                <div className="characters">
+                    {characters &&
+                    characters.map((character, index) => (
+                        <CardCharacter 
+                        key={index}
+                        name={character.name}
+                        presentation={character.presentation}
+                        />
+                    ))}
+                    <div>
+                        <img src={HiccupImage} alt="Hiccup" className="hiccup"/>
+                    </div>
+                    <div>
+                        <img src={AstridImage} alt="Astrid" className="astrid"/>
+                    </div>
+                    <div>
+                        <img src={ZephyrImage} alt="Zephyr" className="zephyr"/>
+                    </div>
+                    <div>
+                        <img src={NuffinkImage} alt="Nuffink" className="nuffink"/>
+                    </div>
                 </div>
-                <div>
-                    <img src={AstridImage} alt="Astrid" className="astrid"/>
-                </div>
-                <div>
-                    <img src={ZephyrImage} alt="Zephyr" className="zephyr"/>
-                </div>
-                <div>
-                    <img src={NuffinkImage} alt="Nuffink" className="nuffink"/>
-                </div>
-            </div>
+            </Fade>  
             <div className="global-button-chara">
                 <p className="t-one">See more</p>
                 <NavLink to="/characters">
@@ -82,28 +85,30 @@ const HomePage = () => {
                 <img src={icon} alt="icon 3" className="third-icon" />
                 <img src={icon} alt="icon 4" className="fourth-icon" /> 
             </div> 
-            <img src={DragonBack} alt="dragon header" className="back-dragon" />      
-            <div className="dragons fade-in-left-two">
-                {dragons &&
-                  dragons.map((dragon, index) => (
-                   <CardDragons
-                      key={index}
-                      name={dragon.name}
-                      race={dragon.race}
-                      presentation={dragon.presentation}
-                      ability={dragon.ability}
-                   />
-                ))}
-                <div>
-                    <img src={ToohtlessImage} alt="Toothless" className="toothless"/>
+            <img src={DragonBack} alt="dragon header" className="back-dragon" />  
+            <Fade left>  
+                <div className="dragons">
+                    {dragons &&
+                    dragons.map((dragon, index) => (
+                    <CardDragons
+                        key={index}
+                        name={dragon.name}
+                        race={dragon.race}
+                        presentation={dragon.presentation}
+                        ability={dragon.ability}
+                    />
+                    ))}
+                    <div>
+                        <img src={ToohtlessImage} alt="Toothless" className="toothless"/>
+                    </div>
+                    <div>
+                        <img src={LightImage} alt="Night Fury" className="light-fury"/>
+                    </div>
+                    <div>
+                        <img src={NlImage} alt="Night Light" className="night-light"/>
+                    </div>
                 </div>
-                <div>
-                    <img src={LightImage} alt="Night Fury" className="light-fury"/>
-                </div>
-                <div>
-                    <img src={NlImage} alt="Night Light" className="night-light"/>
-                </div>
-            </div>
+            </Fade>  
             <div className="global-button-dragon">
                 <p className='t-two'>See more</p>
                 <NavLink to="/dragons">
